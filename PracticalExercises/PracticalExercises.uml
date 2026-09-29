@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_KYXGELvfEfGot-M8cU-gfw" name="PracticalExercises">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_KrhSoLvfEfGot-M8cU-gfw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_4Zi6oLvfEfGot-M8cU-gfw" name="thing">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-RgzkLvfEfGot-M8cU-gfw" name="UseCase1">
+      <include xmi:type="uml:Include" xmi:id="_bthloLvgEfGot-M8cU-gfw" addition="__GjlMLvfEfGot-M8cU-gfw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__GjlMLvfEfGot-M8cU-gfw" name="UseCase2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_6dr8oLvfEfGot-M8cU-gfw" name="customer"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eKU_QLvgEfGot-M8cU-gfw" memberEnd="_eKbs8LvgEfGot-M8cU-gfw _eKfXULvgEfGot-M8cU-gfw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eKZ3wLvgEfGot-M8cU-gfw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eKae0LvgEfGot-M8cU-gfw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eKbs8LvgEfGot-M8cU-gfw" name="customer" type="_6dr8oLvfEfGot-M8cU-gfw" association="_eKU_QLvgEfGot-M8cU-gfw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eKfXULvgEfGot-M8cU-gfw" name="usecase1" type="_-RgzkLvfEfGot-M8cU-gfw" association="_eKU_QLvgEfGot-M8cU-gfw"/>
+  </packagedElement>
+</uml:Model>
